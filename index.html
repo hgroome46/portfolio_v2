@@ -5,34 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"><!-- Link to your CSS file -->
 </head>
 <body>
-    <section class="top">
-        <img src="images/home_background.jpeg" alt="Top Image">
-    </section>
+<!-- Background image with dark overlay -->
+<div class="background"></div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief introduction about yourself here.</p>
-    </section>
+<a href="About.html" class="text-box-link">
+    <div class="text-box" id="henry">Henry Groome</div>
+</a>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>List your projects here.</p>
-    </section>
+<a href="Portfolio.html" class="text-box-link">
+    <div class="text-box" id="portfolio">Portfolio</div>
+</a>
+<!-- Main content -->
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>List your skills here.</p>
-    </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Provide contact information here.</p>
-    </section>
 
-    <footer>
-        <p>&copy; 2024 My Portfolio</p>
-    </footer>
+<img src="images/reload.png" alt="Refresh" class="refresh-image" onclick="refreshPage()">
+
+<script src="script.js"></script>
+
 </body>
 </html>

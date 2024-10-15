@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Black background */
+    color: white; /* White text for contrast */
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 40% 1fr; /* 40% for image, rest for text */
+    grid-gap: 20px; /* Adjust the space between image and text */
+    align-items: center; /* Vertically align items in the center */
+    width: 90%; /* Limit the container width to prevent stretching */
+    max-width: 1200px; /* Max width to prevent layout from expanding too far */
+}
+
+
+/* Image styling */
+.about-image img {
+    width: 80%; /* Image takes 35% of the width */
+    height: auto;
+    margin-right: 20px; /* Space between the image and the text */
+}
+
+/* Text styling */
+.about-text {
+    /*align-self: start;*/
+    width: 100%; /* Reduce the width of the text */
+    color: white; /* Ensure the text is white */
+    /*font-weight: 400; !* Normal font weight for better readability *!*/
+}
+
+.about-text h1 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: 550;
+
+}
+
+.about-text p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.about-page-link {
+    text-decoration: none; /* Remove underline */
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-weight: 500;
+}
+    /* Hover state for the link */
+.about-page-link:hover {
+    text-decoration: underline;/* Darken the box on hover */             /* Change text color on hover */
+}
+
+.back-arrow {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 17px; /* Set a width for the image */
+    height: 14px; /* Set a height for the image */
+    cursor: pointer;
+    z-index: 10; /* Ensure the image appears on top */
+}
+
+.back-arrow:hover {
+    opacity: 0.8; /* Add a slight hover effect */
+}
