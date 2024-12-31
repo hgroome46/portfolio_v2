@@ -1,10 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Art Piece</title>
+    <link rel="stylesheet" href="portfolio-entry-styles.css">
 </head>
 <body>
-$END$
+<!-- Back Arrow -->
+<img src="images/backarrow.png" alt="Back" class="back-arrow" onclick="goBack()">
+<a href="index.html"><div class="home-button">HZG</div></a>
+
+<!-- Header section for title and date -->
+<div class="entry-header">
+    <h1 id="art-piece-title" class="art-piece-title"></h1>
+    <p id="art-piece-date" class="art-piece-date"></p>
+</div>
+
+<!-- Main image container -->
+<div class="image-container">
+    <img id="art-piece-image" src="" alt="Art Piece" class="art-piece-image">
+    <video id="art-piece-video" class="art-piece-video" controls style="display: none;">
+        <source src="" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<!-- Description section -->
+<div class="description-container">
+    <p id="art-piece-description" class="art-piece-description"></p>
+</div>
+
+
+<div id="full-size-container"></div>
+
+<div class="other-images-gallery" id="other-images-gallery"></div>
+
+<div id="full-size-after-container"></div>
+
+<!-- JavaScript for Loading Data -->
+<script src="portfolio-entry-script.js"></script>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
 </body>
 </html>

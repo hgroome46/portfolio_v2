@@ -5,7 +5,7 @@ html, body {
     overflow: hidden; /* Prevent scrolling */
 }
 
-.background {
+.blackground {
     position: absolute;
     top: 0;
     left: 0;
@@ -17,7 +17,7 @@ html, body {
     background-repeat: no-repeat;
 }
 
-.background::after {
+.blackground::after {
     content: '';
     position: absolute;
     top: 0;

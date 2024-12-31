@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Landing Page</title>
+    <link rel="stylesheet" href="portfolio-styles.css">
 </head>
 <body>
+<div class="portfolio-container">
+    <!-- Portfolio Item 1 -->
+    <div class="portfolio-item">
+        <a href="fine_art.html">
+        <img src="images/portfolio_1.jpeg" alt="Project 1" class="portfolio-image"
+             onmouseover="showText(this)" onmouseout="hideText(this)">
+        </a>
+        <h3 class="portfolio-title title-fine-art"><a href="fine_art.html" class="text-box-link"
+                                       onmouseover="showText(this)" onmouseout="hideText(this)">Fine Art</a></h3>
+        <div class="hover-text">mixed media projects usually based in the found object</div>
+    </div>
 
+    <!-- Portfolio Item 2 -->
+    <div class="portfolio-item" >
+        <a href="graphic_design.html">
+        <img src="images/portfolio_2.png" alt="Project 2" class="portfolio-image"
+             onmouseover="showText(this)" onmouseout="hideText(this)">
+        </a>
+        <h3 class="portfolio-title title-graphic-design"><a href="graphic_design.html" class="text-box-link"
+                                       onmouseover="showText(this)" onmouseout="hideText(this)">Graphic Design + Brand Strategy</a></h3>
+        <div class="hover-text">UI/UX design, brand design, and marketing content and strategy</div>
+    </div>
+
+    <!-- Portfolio Item 3 -->
+    <div class="portfolio-item">
+        <a href="product_design.html">
+        <img src="images/portfolio_3.jpeg" alt="Project 3" class="portfolio-image"
+             onmouseover="showText(this)" onmouseout="hideText(this)">
+        </a>
+        <h3 class="portfolio-title title-product-design"><a href="product_design.html" class="text-box-link"
+                                       onmouseover="showText(this)" onmouseout="hideText(this)">Product Design + Modeling</a></h3>
+        <div class="hover-text">some products that I designed in response to prompts and problems</div>
+    </div>
+
+    <a href="index.html"><img src="images/backarrow.png" alt="Back" class="back-arrow"></a>
+
+    <script src="portfolio-script.js"></script>
+
+</div>
 </body>
 </html>

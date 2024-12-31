@@ -1,0 +1,776 @@
+{
+  "galleries": [
+    {
+      "id": "LSSP",
+      "title": "Life-Sized Self-Portrait",
+      "images": [
+        {
+          "id": "portfolio_1",
+          "title": "Life-Sized Self-Portrait",
+          "date": "October 2020",
+          "description": "I wanted to represent myself in a unique and meaningful way, so I sharpened 22 pencils for 6,300 seconds- each second representing a day of my life. The pencil shavings symbolize my love and commitment to art. I didn't glue the piece down so when it was done I took a blow-dryer and sent it on its way. ",
+          "image_path": "/images/portfolio_1.jpeg"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/portfolio_1.jpeg"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/LSSP_2.jpeg"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/LSSP_3.jpeg"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/LSSP_1.jpeg"
+        },
+        {
+          "id": "related_video_1",
+          "video_path": "/images/LSSP_5.mp4",
+          "class": "full-size-after"
+        }
+      ]
+    },
+    {
+      "id": "NBN",
+      "title": "Nothing But Net",
+      "images": [
+        {
+          "id": "fine_art_1",
+          "title": "Nothing But Net",
+          "date": "May 2022",
+          "description": "This project is a representation of my passion for the sport of basketball. The nets represent the human nervous system and the piece is 10 feet tall- the height of a regulation basketball hoop. This piece now lives in my high school in the staircase that leads to the basketball gym.",
+          "image_path": "/images/fine_art_1.jpeg"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/NBN_1.jpg"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/NBN_2.jpg"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/NBN_24.jpg"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/NBN_3.jpg"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/NBN_4.jpg"
+        },
+        {
+          "id": "related_image_6",
+          "image_path": "/images/NBN_5.jpg"
+        }
+
+      ]
+    },
+    {
+      "id": "TP",
+      "title": "Trust Portraits",
+      "images": [
+        {
+          "id": "fine_art_2",
+          "title": "Trust Portraits",
+          "date": "October 2021",
+          "description": "Trust Portraits was as much of a trust exercise as it was an art project. For this project, I had a participant blindfold themselves and move their pen on the paper as I gave them instructions on how to draw their portrait. You can view the whole project at <a href='https://www.trustportraits.com/' class='custom-link' target='_blank'>trustportraits.com.</a>",
+          "image_path": "/images/fine_art_2.png"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/fine_art_2.png"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/TP_2.png"
+        },
+        {
+          "id": "related_image_6",
+          "image_path": "/images/TP_6.png"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/TP_7.png"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/TP_3.png"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/TP_4.png"
+        }
+
+
+      ]
+    },
+    {
+      "id": "dots",
+      "title": "Concentration",
+      "images": [
+        {
+          "id": "fine_art_5",
+          "title": "Concentration",
+          "date": "January 2023",
+          "description": "This piece was a commission for a new high-end apartment building being built on the Upper West Side of New York City. The piece was for a \"teen room\" in the common area, so I made a piece that conveyed playful movement yet maintained some abstraction.",
+          "image_path": "/images/fine_art_5.jpg"
+        },
+
+        {
+          "id": "related_image_1",
+          "image_path": "/images/concentration_3.jpg",
+          "class": "full-size"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/concentration_2.jpg"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/concentration_1.jpg"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/concentration_4.jpg"
+        },
+        {
+          "id": "related_video_1",
+          "video_path": "/images/concentration_vid.mp4"
+        }
+      ]
+    },
+    {
+      "id": "IYA",
+      "title": "C9 Mural",
+      "images": [
+        {
+          "id": "fine_art_6",
+          "title": "IYA C9 Mural",
+          "date": "October 2023",
+          "description": "Every year, the freshman cohort in the Iovine and Young Academy at USC is tasked with creating a giant 16 x 11 foot mural out of expo marker. My design was voted as the official design for our cohort and I became part of the team that lead its execution. It was fun to see the mural evolve and come to life as we all worked on it.",
+          "image_path": "/images/fine_art_6.jpeg"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/IYA_1.jpeg",
+          "class": "full-size"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/IYA_2.jpeg"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/IYA_3.jpeg"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/IYA_5.jpg"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/IYA_4.jpg"
+        }
+
+      ]
+    },
+    {
+      "id": "AH",
+      "title": "Anything Helps",
+      "images": [
+        {
+          "id": "fine_art_4",
+          "title": "Anything Helps",
+          "date": "December 2020",
+          "description": "I made this project for a class called Visual Politics where we were tasked to make a political statement with art. This project was a commentary on our overuse of plastic and it's detrimental impact on the mother nature, who is begging for help. I used only plastic that I had lying around my house, giving it a new purpose.",
+          "image_path": "/images/fine_art_4.jpeg"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/AH_2.jpg"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/AH_1.jpg"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/AH_3.jpg"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/AH_4.jpeg"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/AH_5.jpeg"
+        },
+        {
+          "id": "related_image_6",
+          "image_path": "/images/AH_6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "MS",
+      "title": "Mini Sketchbook",
+      "images": [
+        {
+          "id": "fine_art_3",
+          "title": "Mini Sketchbook",
+          "date": "June 2023",
+          "description": "I started this sketchbook in Venice, Italy when I found it at a bookstore. I used it to document my favorite views while I traveled through Venice and other parts of Europe. It was also a fun exercise to draw at such a small scale and it allowed me to see the world in a new way.",
+          "image_path": "/images/fine_art_3.jpeg"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/MS_3.jpeg"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/MS_4.jpeg"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/MS_5.jpeg"
+        },
+        {
+          "id": "related_image_6",
+          "image_path": "/images/MS_6.jpeg"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/MS_1.jpeg"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/MS_2.jpeg"
+        }
+
+      ]
+    },
+    {
+      "id": "GT",
+      "title": "Good Times",
+      "images": [
+        {
+          "id": "fine_art_7",
+          "title": "Good Times",
+          "date": "August 2024",
+          "description": "I was commissioned to create this piece as a gift from one family to another, celebrating their long-standing friendship. The artwork features a collection of symbols that represent memories and inside jokes shared between the two families. The composition and color palette draw inspiration from Damien Hirst's iconic dot works, but each element is laser-cut from wood and mounted on a wooden frame to create an elevated look. ",
+          "image_path": "/images/fine_art_7.jpeg"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/GT_1.jpeg",
+          "class": "full-size"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/GT_2.jpeg"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/GT_3.jpeg"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/GT_4.jpeg"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/GT_5.jpeg"
+        }
+
+      ]
+    },
+    {
+      "id": "fuse",
+      "title": "Fuse",
+      "images": [
+        {
+          "id": "graphic_design_2",
+          "title": "Fuse",
+          "date": "February 2024",
+          "description": "I worked on the logo and brand identity for a new company that my dad was putting together called Fuse. The company’s premise is the fusion of experienced founders, marketers, and strategists to offer consulting services. I wanted to represent the upward motion created by two colliding plates, hence the power of fusion to create progress. The work took multiple iterations and involved constant dialogue with the founders.",
+          "image_path": "/images/graphic_design_2.png"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/fuse_1.png"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/fuse_2.png"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/fuse_3.png"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/fuse_4.png"
+        }
+      ]
+    },
+    {
+      "id": "LT",
+      "title": "Lo's Tacos",
+      "images": [
+        {
+          "id": "graphic_design_1",
+          "title": "Lo's Tacos",
+          "date": "October 2023",
+          "description": "A friend of mine attending St. Andrew’s University in Scotland co-founded a taco catering service with goals of scaling to a fully operational restaurant. I created the brand identity for the company and have continued to work as the lead in creative strategy. I’ve created social media posts, edited promotional videos, created menus and business cards, and made designs for merchandise.",
+          "image_path": "/images/graphic_design_1.png"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/LT_1.png",
+          "class": "full-size"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/LT_2.png"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/LT_5.png"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/LT_4.png"
+        },
+        {
+          "id": "related_video_2",
+          "video_path": "/images/LT_3.mp4"
+        }
+      ]
+    },
+    {
+      "id": "NS",
+      "title": "Narcan Sprint",
+      "images": [
+        {
+          "id": "graphic_design_4",
+          "title": "Narcan Sprint",
+          "date": "January 2024",
+          "description": "For my Design Strategy class, we were tasked with developing a marketing campaign to raise awareness about the rising prevalence of drug overdoses at music festivals. I conceptualized a Narcan-shaped tent designed to provide resources for overdose prevention and response while complementing the festival's aesthetic. In addition to modeling and rendering the tent, I created accompanying visuals to illustrate how the campaign could be effectively integrated into the festival environment.",
+          "image_path": "/images/graphic_design_4.png"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/narcan_4.png"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/narcan_2.png"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/narcan_1.png"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/narcan_3.png"
+        }
+
+      ]
+    },
+    {
+      "id": "arup",
+      "title": "Arup Project",
+      "images": [
+        {
+          "id": "graphic_design_8",
+          "title": "Arup Project",
+          "date": "December 2024",
+          "description": "In my Industry Practicum class, Arup, a global design, engineering, and consulting firm, tasked us with addressing challenges in Downtown Los Angeles. We conducted in-depth research on issues related to urban planning and living in the area, developed multiple concepts, and ultimately pitched our most promising solution: a rotating cycle of miscellaneous pop-ups occupying abandoned office building floors. My primary contribution to the final pitch was creating the 1-minute concept video.",
+          "image_path": "/images/graphic_design_8.png"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/arup_1.png",
+          "class": "full-size"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/arup_4.png"
+        },
+        {
+          "id": "related_video_1",
+          "video_path": "/images/arup_2.mp4"
+        }
+      ]
+    },
+    {
+      "id": "MNTVM",
+      "title": "Momentvm",
+      "images": [
+        {
+          "id": "graphic_design_7",
+          "title": "Momentvm",
+          "date": "April 2024",
+          "description": "For Momentvm, the startup I co-founded, I was in charge of brand design as well as UI/UX design of the product. I worked on the website, app, backend software interface, and social media content. While Momentvm never saw the finish line, it was a great learning experience designing across brand and product. ",
+          "image_path": "/images/graphic_design_7.png"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/mntvm_1.png"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/mntvm_2.png"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/mntvm_4.png"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/mntvm_3.png"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/mntvm_5.png",
+          "class": "full-size-after"
+        }
+
+      ]
+    },
+    {
+      "id": "heist",
+      "title": "Heist",
+      "images": [
+        {
+          "id": "graphic_design_5",
+          "title": "Heist",
+          "date": "November 2023",
+          "description": "In my class called Practice of Design, our final project was to design a live experience that solved a problem. My group created \"Heist,\" an escape room experience set at a real museum gallery to bring a younger audience to art museums. Along with contributing to the idea, I created the branding visuals.",
+          "image_path": "/images/graphic_design_5.png"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/heist_3.png",
+          "class": "full-size"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/heist_4.png"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/heist_2.png"
+        }
+
+      ]
+    },
+    {
+      "id": "dust",
+      "title": "Dust",
+      "images": [
+        {
+          "id": "graphic_design_6",
+          "title": "Dust",
+          "date": "June 2024",
+          "description": "I was contracted to create the logo and brand identity for Dust, an outdoors athletic-wear company. The logo represents the values of the company: freedom, movement, and connection to nature. I tied these values into a cohesive and compelling brand narrative.",
+          "image_path": "/images/graphic_design_6.png"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/dust_7.png",
+          "class": "full-size"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/dust_3.png"
+        },{
+          "id": "related_image_1",
+          "image_path": "/images/dust_1.png"
+        },{
+          "id": "related_image_4",
+          "image_path": "/images/dust_4.png"
+        },{
+          "id": "related_image_5",
+          "image_path": "/images/dust_5.png"
+        }
+
+      ]
+    },
+    {
+      "id": "NDY",
+      "title": "Not Done Yet",
+      "images": [
+        {
+          "id": "graphic_design_3",
+          "title": "Not Done Yet",
+          "date": "June 2023",
+          "description": "I interned with The I'm Not Done Yet Foundation, a charity dedicated to supporting young adults with cancer, where I refined their brand identity and developed innovative marketing strategies. I streamlined the organization’s name and simplified the logo to make the brand more recognizable and marketable for future events. Additionally, I conceptualized a promotional initiative called \"Show Your Strength Day\"—a talent show hosted on college campuses that celebrates the talents and passions of the young adult community. ",
+          "image_path": "/images/graphic_design_3.png"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/ndy_2.png"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/ndy_3.png"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/ndy_4.png"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/ndy_1.png"
+        }
+
+      ]
+    },
+    {
+      "id": "SP",
+      "title": "Spiral Pot",
+      "images": [
+        {
+          "id": "product_design_2",
+          "title": "Spiral Pot",
+          "date": "December 2023",
+          "description": "This flower pot was my submission for my final project of my Materials class in Iovine and Young Academy. The pot is made of concrete, and is held up by 8 welded metal slabs. To make the concrete shape, I 3D printed the model and then used the print to create a silicone mold for the concrete. It was my first time working with silicone and concrete, and I'm very happy with how it turned out.",
+          "image_path": "/images/product_design_2.jpeg"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/spiral_1.jpeg",
+          "class": "full-size"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/spiral_2.jpeg"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/spiral_3.jpeg"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/spiral_4.jpeg"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/spiral_5.jpeg"
+        }
+
+      ]
+    },
+    {
+      "id": "WS",
+      "title": "Water Shoe",
+      "images": [
+        {
+          "id": "product_design_5",
+          "title": "Water Shoe",
+          "date": "October 2024",
+          "description": "We were challenged to make a shoe in my product design class. My group explored existing outdoors shoes to try to find a gap in the market. I personally looked at water shoes, finding that while there was a growing crossover between hiking shoes and street wear, there lacked aesthetically pleasing shoes meant for water. After sketching and designing many variations, I built this model using a plastic foot mold, foam, styrofoam,  molding clay, and string.",
+          "image_path": "/images/product_design_5.jpeg"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/shoe_1.jpeg"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/shoe_2.jpeg"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/shoe_3.jpeg"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/shoe_4.jpeg"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/shoe_5.png"
+        },
+        {
+          "id": "related_image_6",
+          "image_path": "/images/shoe_6.png"
+        }
+
+      ]
+    },
+    {
+      "id": "solair",
+      "title": "Solair",
+      "images": [
+        {
+          "id": "product_design_4",
+          "title": "Solair",
+          "date": "December 2022",
+          "description": "This was my final project for a class called Rapid Visualization. We had to make a unique bottle for a product that we invented, make sketches, mood boards, packaging, and finally, a render. I created this double-sided scent diffuser meant to wake you up in the morning and help you fall asleep. I used Fusion 360 and Adobe Dimension to model and render it.",
+          "image_path": "/images/product_design_4.png"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/product_design_4.png",
+          "class": "full-size"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/solair_2.png"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/solair_3.png"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/solair_4.png"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/solair_5.png"
+        }
+
+      ]
+    },
+    {
+      "id": "GS",
+      "title": "Geoshades",
+      "images": [
+        {
+          "id": "product_design_3",
+          "title": "Geoshades",
+          "date": "October 2023",
+          "description": "This was my submission for the plastics project of my materials class. I modeled them in Fusion 360 and then resin-printed them before adding the lens and hinges. It took hours of modeling and multiple iterations of prints.",
+          "image_path": "/images/product_design_3.jpeg"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/geo_1.jpeg"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/geo_4.png"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/geo_2.jpeg"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/geo_3.png"
+        }
+
+      ]
+    },
+    {
+      "id": "PD",
+      "title": "Pill Dispenser",
+      "images": [
+        {
+          "id": "product_design_8",
+          "title": "Pill Dispenser",
+          "date": "December 2024",
+          "description": "This model was the culmination of what I learned in my 3D modeling with Solidworks class. I designed and modeled this alternate cap for a pill dispenser that uses a spring mechanism to dispense one pill at a time with the push of a button. The inspiration for this model came from my grandfather who suffers from Parkinson's disease and has trouble handling and organizing his many pills.",
+          "image_path": "/images/product_design_8.png"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/PD_3.png"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/PD_1.png"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/PD_2.png"
+        },
+        {
+          "id": "related_video_1",
+          "video_path": "/images/submission_video.mp4"
+        }
+      ]
+    },
+    {
+      "id": "H-lamp",
+      "title": "H Lamp",
+      "images": [
+        {
+          "id": "product_design_7",
+          "title": "H Lamp",
+          "date": "December 2024",
+          "description": "This lamp is my one of my most ambitious creations because of its scale. For our final project in my product design class we were tasked with creating a piece of furniture or a light fixture. I've always wanted to work with light, and needed a standing lamp for my room, so I after a round of sketches and renderings, I built this lamp standing at over six feet tall. The process required a CNC machine, a reciprocating saw, and an immense amount of sanding. ",
+          "image_path": "/images/product_design_7.jpeg"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/product_design_7.jpeg"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/H_2.jpeg"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/H_4.jpeg"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/H_3.jpeg"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/H_5.jpeg"
+        },
+        {
+          "id": "related_image_6",
+          "image_path": "/images/H_6.png"
+        }
+      ]
+    },
+    {
+      "id": "clover",
+      "title": "Clover",
+      "images": [
+        {
+          "id": "product_design_6",
+          "title": "Clover",
+          "date": "October 2022",
+          "description": "I created this table after learning how to use the modeling software Fusion 360 in my first semester at USC. I rendered it and 3D printed a miniature model of the table, which is meant to be a bedside table or a small coffee or chess table. I plan on one day creating it out of wood.",
+          "image_path": "/images/product_design_6.png"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/clover_1.png",
+          "class": "full-size"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/product_design_6.png"
+        },
+        {
+          "id": "related_image_3",
+          "image_path": "/images/clover_3.png"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/clover_4.jpeg"
+        },
+        {
+          "id": "related_image_5",
+          "image_path": "/images/clover_2.jpeg"
+        }
+      ]
+    }
+          ]
+        }

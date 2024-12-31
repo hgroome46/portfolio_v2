@@ -1,0 +1,197 @@
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: none; /* Background color of the track */
+    border-radius: 5px; /* Rounded corners */
+    /*margin: 200px 0;*/
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Scrollbar Thumb Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white; /* Color when hovering over the scrollbar handle */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20); /* Black background */
+    color: white; /* White text for contrast */
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Title styling */
+.page-title {
+    position: absolute;
+    top: 8%;
+    left: 19%;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: white;
+}
+
+.side-arrow {
+    position: absolute;
+    top: 10%;
+    left: 83%;
+    cursor: pointer;
+    width: 9px;
+    height: 15px;
+}
+
+.side-arrow:hover {
+    opacity: 0.8;
+}
+
+.side-arrow-2 {
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    cursor: pointer;
+    width: 9px;
+    height: 15px;
+}
+
+.side-arrow-2:hover {
+    opacity: 0.8;
+}
+
+/* Back arrow styling */
+.back-arrow {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 17px;
+    height: 14px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.back-arrow:hover {
+    opacity: 0.8; /* Slight hover effect */
+}
+
+.home-button {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    /*width: 38px;*/
+    /*height: 14px;*/
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.home-button:hover {
+    text-decoration: underline;
+}
+
+.gallery-container {
+    padding-bottom: 100px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /*padding: 0 4px;*/
+    justify-content: center; /* Center the gallery on the page */
+    gap: 14px; /* Space between images */
+    max-width: 74%; /* Limit the width of the gallery */
+    /*margin-top: 200px; !* Adjust this value to move the gallery further down *!*/
+    margin: 200px auto 0; /* Center the container horizontally and adjust top margin */
+}
+
+/* Two-column setup */
+.column {
+    position: relative;
+    flex: 30%;
+    max-width: 30%;
+    /*padding: 0 4px;*/
+}
+
+/* Image styling */
+.column img {
+    margin-top: 14px;
+    vertical-align: middle;
+    width: 100%; /* Make images fill the width of the column */
+    transition: transform 0.1s ease, opacity 0.1s ease;
+}
+
+/* Hover effect for images */
+/*.column img:hover {*/
+/*    transform: scale(1.05); !* Slight zoom effect on hover *!*/
+/*    opacity: 0.9; !* Slight opacity change on hover *!*/
+/*}*/
+.image-link {
+    position: relative; /* Only these <a> tags act as containers for absolute positioning */
+    display: inline-block;
+}
+/* Hover text styling */
+.hover-text {
+    display: none; /* Hidden initially */
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    text-align: left;
+    /*transform: translate(-50%, -50%);*/
+    color: white;
+    /*padding: 10px;*/
+    font-size: 1em;
+    /*text-align: center;*/
+    pointer-events: none; /* Prevent interactions with the text box */
+    /*width: 80%; !* Fit text nicely over the image *!*/
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+/* Responsive layout - becomes single column below 600px */
+/*@media screen and (max-width: 1100px) {*/
+/*    .column {*/
+/*        flex: 45%; !* Switch to two columns at medium screen sizes *!*/
+/*        max-width: 45%;*/
+/*    }*/
+/*}*/
+
+body.page-fine-art .page-title {
+    color: #FFB3C7;
+}
+
+/* Graphic Design Page */
+body.page-graphic-design .page-title {
+    color: #B3E7FF;
+}
+
+/* Product Design Page */
+body.page-product-design .page-title {
+    color: #FFFFB3;
+}
+
+@media screen and (max-width: 700px) {
+    .column {
+        flex: 100%; /* Single column taking 100% width */
+        max-width: 100%; /* Stacks columns on top of each other */
+    }
+    .row {
+        max-width: 68%; /* Stacks columns on top of each other */
+    }
+}
+
+/* Responsive adjustments for page title below 600px */
+@media (max-width: 600px) {
+    .page-title {
+        max-width: 200px;
+        text-wrap: auto;
+    }
+}

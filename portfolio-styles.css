@@ -1,0 +1,131 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20); /* Black background */
+    color: white; /* White text for contrast */
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the portfolio items */
+.portfolio-container {
+    display: flex;
+    justify-content: space-between; /* Space between the images */
+    align-items: center;
+    width: 70%;
+    max-width: 1200px; /* Limit the width of the entire container */
+    gap: 5%;
+    margin: auto;
+}
+
+/* Individual portfolio items */
+.portfolio-item {
+    text-align: left; /* Center the title under each image */
+    position: relative;
+    /*margin: 0 30px;*/
+}
+
+/* Portfolio image styling */
+.portfolio-image {
+    width: 300px; /* Fixed width */
+    height: 400px; /* Fixed height */
+    object-fit: cover; /* Make sure the images keep aspect ratio */
+}
+
+/* Portfolio title styling */
+.portfolio-title {
+    max-width: 250px;
+    text-wrap: auto;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+    height: 50px;
+}
+
+
+.text-box-link {
+    color: white;
+    text-decoration: none;
+    z-index: 1; /* Ensure text boxes are on top of the background */
+    font-family: 'Space Mono', monospace;
+    font-size: 1em;
+}
+
+.text-box-link:hover {
+    /*color: rgba(255, 255, 255, 0.8);*/
+    text-decoration: underline;/* Darken the box on hover */
+}
+
+
+.back-arrow {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 17px;
+    height: 14px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* Hover effect for back arrow */
+.back-arrow:hover {
+    opacity: 0.8;
+}
+
+.hover-text {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    z-index: 10; /* Ensure it's on top of everything */
+    text-align: left;
+    pointer-events: none; /* Prevent interactions with the text box */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.title-fine-art .text-box-link {
+    color: #FFB3C7;
+}
+
+.title-graphic-design .text-box-link {
+    color: #B3E7FF;
+}
+
+.title-product-design .text-box-link {
+    color: #FFFFB3;
+}
+
+
+
+@media (max-width: 1200px) {
+    .portfolio-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items in a column */
+        margin-top: 25px;
+    }
+
+    .portfolio-item {
+        flex: 1 1 100%; /* Each item takes the full width */
+        max-width: 100%; /* Ensure they take up full width */
+        margin-bottom: 10px; /* Add some space between stacked items */
+    }
+
+    .portfolio-image {
+        max-height: 170px; /* Keep the image height consistent */
+    }
+
+    .portfolio-title {
+        height: auto; /* Let title height adjust naturally */
+        font-size: 1em;
+        max-width: 210px;
+        text-wrap: auto;
+    }
+
+}

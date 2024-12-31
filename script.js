@@ -1,4 +1,5 @@
 // Function to generate random positions
+
 function getRandomPosition(element) {
     var viewportWidth = window.innerWidth;
     var viewportHeight = window.innerHeight;
@@ -32,9 +33,22 @@ function randomizePosition() {
 
 
 }
+function applyRandomColors() {
+    const colorPalette = ["#FFB3C7", "#B3E7FF", "#B3FFF2", "#FFFFB3", "#FFDEB3", "#DEB3FF", "#FFFFFF"];
+
+    // Apply random colors to elements with the random-color class
+    const applyRandomColors = document.querySelectorAll('.text-box');
+    applyRandomColors.forEach(element => {
+        const randomColor = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+        element.style.color = randomColor;
+    });
+}
 
 // Run the randomization function when the page loads
-window.onload = randomizePosition;
+window.onload = function () {
+    randomizePosition();
+    applyRandomColors();
+};
 
 // Run the randomization function whenever the window is resized
 window.onresize = randomizePosition;

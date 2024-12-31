@@ -1,0 +1,200 @@
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: none; /* Background color of the track */
+    border-radius: 5px; /* Rounded corners */
+    /*margin: 200px 0;*/
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Scrollbar Thumb Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white; /* Color when hovering over the scrollbar handle */
+}
+
+body {
+    margin: 0;
+    padding-top: 7vh;
+    background-color: rgb(20, 20, 20); /* Black background */
+    color: white; /* White text for contrast */
+    font-family: 'Space Mono', monospace;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Back arrow styling */
+.back-arrow {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 17px;
+    height: 14px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.back-arrow:hover {
+    opacity: 0.8;
+}
+
+.home-button {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    /*width: 38px;*/
+    /*height: 14px;*/
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+.home-button:hover {
+    text-decoration: underline;
+}
+
+.custom-link {
+    display: inline;
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    /*font-weight: bold; !* Make text bold *!*/
+    transition: 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect */
+.custom-link:hover {
+    color: white; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Header styling for title and date */
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+    margin: 20px auto;
+    align-items: flex-end;
+}
+
+.art-piece-title {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.art-piece-date {
+    font-size: 1em;
+    color: #bbb;
+    margin: 0;
+    text-align: right;
+}
+
+/* Main image container styling */
+.image-container {
+    width: 68%;
+    height: 30vh;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Main image styling */
+.art-piece-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+/* Description section styling */
+.description-container {
+    width: 68%;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Gallery styling */
+#full-size-container {
+    width: 68%; /* Matches the width of the gallery */
+    margin: 5% auto 16px; /* Center it with space below */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#full-size-container img,
+#full-size-container video {
+    width: 100%; /* Fit the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#full-size-after-container {
+    max-width: 68%; /* Matches gallery width */
+    margin: auto; /* Top margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+#full-size-after-container img,
+#full-size-after-container video {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain;
+}
+
+/* Other images gallery styling */
+.other-images-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two-column layout */
+    gap: 14px;
+    max-width: 68%; /* Match the full-size container width */
+    margin: 0 auto;
+    justify-items: center; /* Center items horizontally */
+}
+
+/* Regular gallery items */
+.gallery-item img,
+.gallery-item video {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 8.5 / 11;
+}
+
+
+@media screen and (max-width: 800px) {
+    .other-images-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .art-piece-title {
+        font-size: 1em;
+    }
+
+    .art-piece-date {
+        font-size: 0.8em;
+    }
+
+    .description-container {
+        font-size: 0.8em;
+    }
+}
