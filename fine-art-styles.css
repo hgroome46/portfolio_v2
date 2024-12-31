@@ -35,7 +35,7 @@ body {
 /* Title styling */
 .page-title {
     position: absolute;
-    top: 8%;
+    top: 7.7%;
     left: 19%;
     font-size: 1.2em;
     font-weight: normal;
@@ -195,7 +195,6 @@ body.page-product-design .page-title {
         text-wrap: auto;
     }
     .page-title {
-        top: 55px;
         left: 21%;
     }
 
