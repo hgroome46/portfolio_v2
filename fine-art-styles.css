@@ -35,7 +35,7 @@ body {
 /* Title styling */
 .page-title {
     position: absolute;
-    top: 7.7%;
+    top: 63px;
     left: 19%;
     font-size: 1.2em;
     font-weight: normal;
@@ -70,13 +70,14 @@ body {
 
 /* Back arrow styling */
 .back-arrow {
-    position: absolute;
+    position: fixed;
     top: 15px;
     left: 15px;
     width: 17px;
     height: 14px;
     cursor: pointer;
     z-index: 10;
+    transition: opacity 0.5s ease;
 }
 
 .back-arrow:hover {
@@ -84,7 +85,7 @@ body {
 }
 
 .home-button {
-    position: absolute;
+    position: fixed;
     top: 14px;
     right: 15px;
     /*width: 38px;*/
@@ -94,6 +95,7 @@ body {
     font-weight: normal;
     color: white;
     font-family: 'Space Mono', monospace;
+    transition: opacity 0.5s ease;
 }
 
 .home-button:hover {
@@ -196,6 +198,7 @@ body.page-product-design .page-title {
     }
     .page-title {
         left: 21%;
+        top: 76px;
     }
 
 }
