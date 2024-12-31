@@ -194,4 +194,9 @@ body.page-product-design .page-title {
         max-width: 200px;
         text-wrap: auto;
     }
+    .page-title {
+        top: 55px;
+        left: 21%;
+    }
+
 }
