@@ -39,7 +39,7 @@ body {
     width: 74%; /* Match the gallery width */
     max-width: 1200px; /* Optional: limit maximum width */
     padding: 0; /* Remove extra padding */
-    margin: 100px auto 0; /* Center header and add spacing from the top */
+    margin: 80px auto 0; /* Center header and add spacing from the top */
     box-sizing: border-box;
     position: relative;
     height: 70px;
@@ -163,7 +163,7 @@ body {
     column-gap: 14px;
     width: 74%; /* Limit the width of the gallery */
     /*margin-top: 200px; !* Adjust this value to move the gallery further down *!*/
-    margin: 100px auto 0; /* Center the container horizontally and adjust top margin */
+    margin: 60px auto 0; /* Center the container horizontally and adjust top margin */
 }
 
 /* Two-column setup */
