@@ -32,38 +32,86 @@ body {
     align-items: center;
 }
 
-/* Title styling */
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Align side arrows to the edges */
+    align-items: center; /* Vertically align elements */
+    width: 74%; /* Match the gallery width */
+    max-width: 1200px; /* Optional: limit maximum width */
+    padding: 0; /* Remove extra padding */
+    margin: 100px auto 0; /* Center header and add spacing from the top */
+    box-sizing: border-box;
+    position: relative;
+    height: 70px;
+}
+
 .page-title {
-    position: absolute;
-    top: 63px;
-    left: 19%;
+    position: absolute; /* Absolute positioning to prevent pushing content */
+    top: 21px; /* Vertically center the first line of text */
+    left: 10%; /* Adjust this value to skew the title left */
+    transform: translateY(-50%); /* Align vertically with the arrows */
+    /*max-width: 200px;*/
     font-size: 1.2em;
     font-weight: normal;
-    color: white;
+    text-align: left; /* Center the title within the gallery width */
+    /*padding-right: 20px;*/
+    /*flex: 1; !* Allow title to expand and push side arrows *!*/
+
 }
+
+/* Title styling */
+/*.page-title {*/
+/*    position: absolute;*/
+/*    top: 63px;*/
+/*    left: 19%;*/
+/*    font-size: 1.2em;*/
+/*    font-weight: normal;*/
+/*    color: white;*/
+/*}*/
+
+/*.side-arrow {*/
+/*    position: absolute;*/
+/*    top: 77px;*/
+/*    left: 83%;*/
+/*    cursor: pointer;*/
+/*    width: 9px;*/
+/*    height: 15px;*/
+/*}*/
+
+
+/*.side-arrow-2 {*/
+/*    position: absolute;*/
+/*    top: 77px;*/
+/*    left: 16%;*/
+/*    cursor: pointer;*/
+/*    width: 9px;*/
+/*    height: 15px;*/
+/*}*/
+
+
 
 .side-arrow {
-    position: absolute;
-    top: 10%;
-    left: 83%;
-    cursor: pointer;
+    align-self: flex-start; /* Aligns the arrow to the left edge of the header */
+    margin-right: auto; /* Pushes the arrow to the left side */
     width: 9px;
     height: 15px;
+    cursor: pointer;
+    transition: opacity 0.3s ease; /* Smooth hover effect */
 }
-
 .side-arrow:hover {
     opacity: 0.8;
 }
 
+
+/* Right Side Arrow */
 .side-arrow-2 {
-    position: absolute;
-    top: 10%;
-    left: 16%;
-    cursor: pointer;
+    align-self: flex-end; /* Aligns the arrow to the right edge of the header */
+    margin-left: auto; /* Pushes the arrow to the right side */
     width: 9px;
     height: 15px;
+    cursor: pointer;
+    transition: opacity 0.3s ease; /* Smooth hover effect */
 }
-
 .side-arrow-2:hover {
     opacity: 0.8;
 }
@@ -96,6 +144,7 @@ body {
     color: white;
     font-family: 'Space Mono', monospace;
     transition: opacity 0.5s ease;
+    text-decoration: none;
 }
 
 .home-button:hover {
@@ -111,16 +160,17 @@ body {
     /*padding: 0 4px;*/
     justify-content: center; /* Center the gallery on the page */
     gap: 14px; /* Space between images */
-    max-width: 74%; /* Limit the width of the gallery */
+    /*width: 100%;*/
+    width: 74%; /* Limit the width of the gallery */
     /*margin-top: 200px; !* Adjust this value to move the gallery further down *!*/
-    margin: 200px auto 0; /* Center the container horizontally and adjust top margin */
+    margin: 100px auto 0; /* Center the container horizontally and adjust top margin */
 }
 
 /* Two-column setup */
 .column {
     position: relative;
     flex: 30%;
-    max-width: 30%;
+    width: 30%;
     /*padding: 0 4px;*/
 }
 
@@ -188,17 +238,19 @@ body.page-product-design .page-title {
     .row {
         max-width: 68%; /* Stacks columns on top of each other */
     }
+    .header-container {
+        width: 68%;
+    }
 }
 
 /* Responsive adjustments for page title below 600px */
 @media (max-width: 600px) {
     .page-title {
+        /*text-wrap: auto;*/
+        top: 10px;
         max-width: 200px;
-        text-wrap: auto;
+        transform: translateY(-0.5px);
     }
-    .page-title {
-        left: 21%;
-        top: 77.5px;
-    }
+
 
 }

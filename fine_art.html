@@ -6,35 +6,40 @@
     <title>Fine Art</title>
     <link rel="stylesheet" href="fine-art-styles.css">
 </head>
-<body>
-<!-- Back Arrow -->
-<a href="Portfolio.html"><img src="images/backarrow.png" alt="Back" class="back-arrow"></a>
-<!--<a href="index.html"><img src="images/hzgwhite.png" alt="Back" class="home-button"></a>-->
-<a href="index.html"><div class="home-button">HZG</div></a>
-
-<a href="graphic_design.html"><img src="images/sidearrow.png" alt="Next" class="side-arrow"></a>
-<a href="product_design.html"><img src="images/sidearrow2.png" alt="Next" class="side-arrow-2"></a>
-
-<!-- Page Title -->
 <body class="page-fine-art">
+<!-- Header Section -->
+<div class="header-container">
+    <a href="product_design.html">
+        <img src="images/sidearrow2.png" alt="Next" class="side-arrow-2">
+    </a>
+
     <h1 class="page-title">Fine Art</h1>
-</body>
+
+    <a href="graphic_design.html">
+        <img src="images/sidearrow.png" alt="Next" class="side-arrow">
+    </a>
+</div>
+
+<a href="Portfolio.html">
+    <img src="images/backarrow.png" alt="Back" class="back-arrow">
+</a>
+
+<a href="index.html" class="home-button">HZG</a>
 
 <!-- Centered Image Gallery -->
 <div class="gallery-container">
     <div class="row">
         <div class="column">
-            <a href=portfolio-entry.html?gallery=LSSP&image=portfolio_1 class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <a href="portfolio-entry.html?gallery=LSSP&image=portfolio_1" class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
                 <img src="images/portfolio_1.jpeg" alt="Art 1" class="grid-image">
                 <div class="hover-text">Life-Sized Self-Portrait</div>
             </a>
-            <a href=portfolio-entry.html?gallery=dots&image=fine_art_5 class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <a href="portfolio-entry.html?gallery=dots&image=fine_art_5" class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
                 <img src="images/fine_art_5.jpg" alt="Art 4" class="grid-image">
                 <div class="hover-text">Concentration</div>
             </a>
-
-            <a href=portfolio-entry.html?gallery=TP&image=fine_art_2 class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
-                <img src="images/fine_art_2.png" alt="Art 3" class="grid-image">
+            <a href="portfolio-entry.html?gallery=TP&image=fine_art_2" class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
+                <img src="images/fine_art_2.png" alt="Art 4" class="grid-image">
                 <div class="hover-text">Trust Portraits</div>
             </a>
         </div>
@@ -43,29 +48,29 @@
                 <img src="images/fine_art_1.jpeg" alt="Art 2" class="grid-image">
                 <div class="hover-text">Nothing But Net</div>
             </a>
-            <a href=portfolio-entry.html?gallery=IYA&image=fine_art_6 class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <a href="portfolio-entry.html?gallery=IYA&image=fine_art_6" class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
                 <img src="images/fine_art_6.jpeg" alt="Art 4" class="grid-image">
                 <div class="hover-text">IYA C9 Mural</div>
             </a>
         </div>
         <div class="column">
-            <a href=portfolio-entry.html?gallery=AH&image=fine_art_4 class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <a href="portfolio-entry.html?gallery=AH&image=fine_art_4" class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
                 <img src="images/fine_art_4.jpeg" alt="Art 2" class="grid-image">
                 <div class="hover-text">Anything Helps</div>
             </a>
-            <a href=portfolio-entry.html?gallery=MS&image=fine_art_3 class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <a href="portfolio-entry.html?gallery=MS&image=fine_art_3" class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
                 <img src="images/fine_art_3.jpeg" alt="Art 4" class="grid-image">
                 <div class="hover-text">Mini Sketchbook</div>
             </a>
-            <a href=portfolio-entry.html?gallery=GT&image=fine_art_7 class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <a href="portfolio-entry.html?gallery=GT&image=fine_art_7" class="image-link" onmouseover="showText(this)" onmouseout="hideText(this)">
                 <img src="images/fine_art_7.jpeg" alt="Art 4" class="grid-image">
                 <div class="hover-text">Good Times</div>
             </a>
         </div>
-        <script src="portfolio_page-script.js"></script>
     </div>
-
 </div>
 
+<!-- JavaScript -->
+<script src="portfolio_page-script.js"></script>
 </body>
 </html>
