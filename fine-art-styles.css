@@ -48,7 +48,7 @@ body {
 .page-title {
     position: absolute; /* Absolute positioning to prevent pushing content */
     top: 21px; /* Vertically center the first line of text */
-    left: 10%; /* Adjust this value to skew the title left */
+    left: 6%; /* Adjust this value to skew the title left */
     transform: translateY(-50%); /* Align vertically with the arrows */
     /*max-width: 200px;*/
     font-size: 1.2em;
@@ -250,6 +250,7 @@ body.page-product-design .page-title {
     .page-title {
         /*text-wrap: auto;*/
         top: 10px;
+        left: 10%;
         max-width: 200px;
         transform: translateY(-0.5px);
     }
