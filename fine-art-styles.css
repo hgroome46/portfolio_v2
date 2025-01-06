@@ -159,8 +159,8 @@ body {
     flex-wrap: wrap;
     /*padding: 0 4px;*/
     justify-content: center; /* Center the gallery on the page */
-    gap: 14px; /* Space between images */
-    /*width: 100%;*/
+     /* Adjust vertical gap between rows */
+    column-gap: 14px;
     width: 74%; /* Limit the width of the gallery */
     /*margin-top: 200px; !* Adjust this value to move the gallery further down *!*/
     margin: 100px auto 0; /* Center the container horizontally and adjust top margin */
@@ -171,6 +171,8 @@ body {
     position: relative;
     flex: 30%;
     width: 30%;
+
+
     /*padding: 0 4px;*/
 }
 
