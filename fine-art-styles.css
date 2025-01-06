@@ -197,7 +197,7 @@ body {
 .hover-text {
     display: none; /* Hidden initially */
     position: absolute;
-    top: 20px;
+    top: 25px;
     left: 15px;
     text-align: left;
     /*transform: translate(-50%, -50%);*/
