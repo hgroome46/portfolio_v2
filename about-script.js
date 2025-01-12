@@ -9,7 +9,6 @@ function applyRandomColors() {
         link.style.color = randomColor;
     });
 
-    // Apply random colors to elements with the random-color class
     const randomColorElements = document.querySelectorAll('.random-color');
     randomColorElements.forEach(element => {
         const randomColor = colorPalette[Math.floor(Math.random() * colorPalette.length)];

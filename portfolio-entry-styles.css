@@ -67,7 +67,6 @@ body {
 
 .custom-link {
     display: inline;
-    color: white; /* Link color */
     text-decoration: none; /* Remove underline */
     /*font-weight: bold; !* Make text bold *!*/
     transition: 0.3s ease; /* Smooth color transition */
@@ -145,6 +144,22 @@ body {
     height: auto; /* Maintain aspect ratio */
 }
 
+#real-size-container {
+    width: 68%; /* Matches the width of the gallery */
+    margin: 5% auto 16px; /* Center it with space below */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#real-size-container img,
+#real-size-container video {
+    width: 100%; /* Fit the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
 #full-size-after-container {
     max-width: 68%; /* Matches gallery width */
     margin: auto; /* Top margin */
@@ -181,6 +196,8 @@ body {
     object-fit: cover;
     aspect-ratio: 8.5 / 11;
 }
+
+
 
 
 @media screen and (max-width: 800px) {

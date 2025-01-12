@@ -19,6 +19,30 @@ const customPositions = {
     product_design_7: "50% 75%"
 };
 
+// Function to apply random colors to home button
+function applyRandomColors() {
+    const colorPalette = ["#FFB3C7", "#B3E7FF", "#B3FFF2", "#FFFFB3", "#FFDEB3", "#DEB3FF"];
+
+    // Apply random colors to elements with the random-color class
+    const homeButtons = document.querySelectorAll('.home-button');
+    homeButtons.forEach(element => {
+        const randomColor = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+        element.style.color = randomColor;
+    });
+}
+
+// Function to apply random colors to custom-link
+function applyRandomColors2() {
+    const colorPalette = ["#FFB3C7", "#B3E7FF", "#B3FFF2", "#FFFFB3", "#FFDEB3", "#DEB3FF"];
+
+    // Apply random colors to elements with the custom-link class
+    const customLinks = document.querySelectorAll('.custom-link');
+    customLinks.forEach(link => {
+        const randomColor = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+        link.style.color = randomColor;
+    });
+}
+
 // Fetch and load data
 fetch('portfolio-data.json')
     .then(response => response.json())
@@ -63,7 +87,6 @@ fetch('portfolio-data.json')
                     if (otherMedia.id === imageId) return; // Skip the header media
 
                     if (otherMedia.class === "full-size") {
-                        // Handle full-size media before the gallery
                         const fullSizeItem = document.createElement('div');
                         if (otherMedia.video_path) {
                             const videoElement = document.createElement('video');
@@ -75,12 +98,10 @@ fetch('portfolio-data.json')
                             imgElement.src = otherMedia.image_path;
                             fullSizeItem.appendChild(imgElement);
                         }
-
                         fullSizeContainer.appendChild(fullSizeItem);
                     } else if (otherMedia.class === "full-size-after") {
                         hasFullSizeAfter = true;
 
-                        // Handle full-size media after the gallery
                         const fullSizeAfterItem = document.createElement('div');
                         if (otherMedia.video_path) {
                             const videoElement = document.createElement('video');
@@ -92,8 +113,22 @@ fetch('portfolio-data.json')
                             imgElement.src = otherMedia.image_path;
                             fullSizeAfterItem.appendChild(imgElement);
                         }
-
                         fullSizeAfterContainer.appendChild(fullSizeAfterItem);
+                    } else if (otherMedia.class === "real-size-container") {
+                        // Handle real-size media
+                        const realSizeItem = document.createElement('div');
+                        realSizeItem.classList.add('real-size-item');
+
+                        const imgElement = document.createElement('img');
+                        imgElement.src = otherMedia.image_path;
+
+                        // Maintain original aspect ratio
+                        imgElement.style.objectFit = "contain";
+                        imgElement.style.width = "100%";
+                        imgElement.style.height = "auto";
+
+                        realSizeItem.appendChild(imgElement);
+                        otherImagesGallery.appendChild(realSizeItem);
                     } else {
                         // Regular gallery item
                         const galleryItem = document.createElement('div');
@@ -108,12 +143,10 @@ fetch('portfolio-data.json')
                             imgElement.src = otherMedia.image_path;
                             galleryItem.appendChild(imgElement);
                         }
-
                         otherImagesGallery.appendChild(galleryItem);
                     }
                 });
 
-                // Adjust gallery spacing if full-size-after exists
                 if (hasFullSizeAfter) {
                     otherImagesGallery.style.marginBottom = "16px"; // Reduce spacing to full-size-after
                 }
@@ -127,6 +160,9 @@ fetch('portfolio-data.json')
                         (scrollPosition / windowHeight) * 30;
                     artPieceImage.style.objectPosition = `50% ${position}%`;
                 });
+
+                // Apply random colors to custom-link elements
+                applyRandomColors2();
             } else {
                 document.getElementById('art-piece-title').innerText = "Media Not Found";
             }
@@ -134,16 +170,6 @@ fetch('portfolio-data.json')
     })
     .catch(error => console.error("Error loading portfolio data:", error));
 
-function applyRandomColors() {
-    const colorPalette = ["#FFB3C7", "#B3E7FF", "#B3FFF2", "#FFFFB3", "#FFDEB3", "#DEB3FF"];
-
-    // Apply random colors to elements with the random-color class
-    const applyRandomColors = document.querySelectorAll('.home-button');
-    applyRandomColors.forEach(element => {
-        const randomColor = colorPalette[Math.floor(Math.random() * colorPalette.length)];
-        element.style.color = randomColor;
-    });
-}
 let lastScrollPosition = 0;
 const backArrow = document.querySelector('.back-arrow');
 const homeButton = document.querySelector('.home-button');
@@ -153,19 +179,17 @@ window.addEventListener('scroll', () => {
 
     // Hide buttons on scroll down, show on scroll up
     if (currentScrollPosition > lastScrollPosition) {
-        // Scrolling down
         backArrow.style.opacity = '0';
         homeButton.style.opacity = '0';
     } else {
-        // Scrolling up
         backArrow.style.opacity = '1';
         homeButton.style.opacity = '1';
     }
 
-    // Update the last scroll position
     lastScrollPosition = currentScrollPosition;
 });
 
 window.onload = function () {
-    applyRandomColors();
+    applyRandomColors(); // Apply colors to home button
+    applyRandomColors2(); // Apply colors to custom links
 };

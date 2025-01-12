@@ -80,7 +80,7 @@
           "id": "fine_art_2",
           "title": "Trust Portraits",
           "date": "October 2021",
-          "description": "Trust Portraits was as much of a trust exercise as it was an art project. For this project, I had a participant blindfold themselves and move their pen on the paper as I gave them instructions on how to draw their portrait. You can view the whole project at <a href='https://www.trustportraits.com/' class='custom-link' target='_blank'>trustportraits.com.</a>",
+          "description": "Trust Portraits was as much of a trust exercise as it was an art project. For this project, I had a participant blindfold themselves and move their pen on the paper as I gave them instructions on how to draw their portrait. I had a friend help me code an interactive website to store all the portraits. You can view it at <a href='https://www.trustportraits.com/' class='custom-link' target='_blank'>trustportraits.com.</a>",
           "image_path": "/images/fine_art_2.png"
         },
         {
@@ -321,6 +321,48 @@
       ]
     },
     {
+      "id": "stevens",
+      "title": "Stevens",
+      "images": [
+        {
+          "id": "graphic_design_9",
+          "title": "USC Stevens Center",
+          "date": "February - December 2024",
+          "description": "In February I started interning for the  <a href='https://stevens.usc.edu/' class='custom-link' target='_blank'>Stevens Center for Innovation at USC</a>.  My focus was marketing, so I created graphics for social media posts and series. I also worked on the Stevens website, writing articles, making structural changes, and designing new pages like the impact page. I also conducted research on entrepreneurial resources within USC so that Stevens could function as a hub to support student entrepreneurs, like myself.",
+          "image_path": "/images/graphic_design_9.png"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/stevens_7.png",
+          "class" : "full-size"
+        },
+        {
+          "id": "related_image_1",
+          "image_path": "/images/stevens_2.png",
+          "class" : "real-size-container"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/stevens_6.png",
+          "class" : "real-size-container"
+        },
+        {
+          "id": "related_video_1",
+          "video_path": "/images/stevens_8.mp4"
+        },
+        {
+          "id": "related_image_4",
+          "image_path": "/images/stevens_4.png"
+        },
+        {
+          "id": "related_image_2",
+          "image_path": "/images/stevens_3.png",
+          "class" : "full-size-after"
+        }
+      ]
+    },
+
+    {
       "id": "LT",
       "title": "Lo's Tacos",
       "images": [
@@ -418,7 +460,7 @@
           "id": "graphic_design_7",
           "title": "Momentvm",
           "date": "April 2024",
-          "description": "For Momentvm, the startup I co-founded, I was in charge of brand design as well as UI/UX design of the product. I worked on the website, app, backend software interface, and social media content. While Momentvm never saw the finish line, it was a great learning experience designing across brand and product. ",
+          "description": "For Momentvm, the startup I co-founded, I was in charge of brand design as well as UI/UX design of the product. After conducting extensive user, product, and market research involving numerous interviews with universities and student athletes, I wire-framed and designed the UI/UX of a series of MVP's. I built the website and designed the app, backend software interface, and social media content. While Momentvm never saw the finish line, it was a great learning experience designing across brand and product. ",
           "image_path": "/images/graphic_design_7.png"
         },
         {
