@@ -34,7 +34,7 @@ function randomizePosition() {
 
 }
 function applyRandomColors() {
-    const colorPalette = ["#FFB3C7", "#B3E7FF", "#B3FFF2", "#FFFFB3", "#FFDEB3", "#DEB3FF", "#FFFFFF"];
+    const colorPalette = ["#FFB3C7", "#B3E7FF", "#B3FFF2", "#FFFFB3", "#FFDEB3", "#DEB3FF"];
 
     // Apply random colors to elements with the random-color class
     const applyRandomColors = document.querySelectorAll('.text-box');
