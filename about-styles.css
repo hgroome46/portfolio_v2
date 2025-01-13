@@ -122,6 +122,24 @@ body {
     opacity: 0.8;
 }
 
+.home-button {
+    position: fixed;
+    top: 14px;
+    right: 15px;
+    /*width: 38px;*/
+    /*height: 14px;*/
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    transition: opacity 0.5s ease;
+}
+
+.home-button:hover {
+    text-decoration: underline;
+}
+
 .custom-link {
     display: inline;
     /*color: white; !* Link color *!*/
@@ -146,6 +164,7 @@ body {
         text-align: center; /* Center text on small screens */
         padding: 20px 0;
         align-items: center;
+        margin-top: 60px;
     }
 
     .about-image img {
@@ -161,4 +180,8 @@ body {
         /*text-align: center;*/
 
     }
+    .links-container {
+        padding-bottom: 60px; /* Increase padding below the links container */
+    }
 }
+

@@ -39,7 +39,7 @@ body {
     width: 74%; /* Match the gallery width */
     max-width: 1200px; /* Optional: limit maximum width */
     padding: 0; /* Remove extra padding */
-    margin: 80px auto 0; /* Center header and add spacing from the top */
+    margin: 58px auto 0; /* Center header and add spacing from the top */
     box-sizing: border-box;
     position: relative;
     height: 70px;

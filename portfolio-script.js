@@ -21,6 +21,17 @@ function hideText(element) {
     titleLink.style.textDecoration = 'none'; // Remove underline from title link
 }
 
+function applyRandomColors() {
+    const colorPalette = ["#FFB3C7", "#B3E7FF", "#B3FFF2", "#FFFFB3", "#FFDEB3", "#DEB3FF"];
+
+    // Apply random colors to elements with the random-color class
+    const applyRandomColors = document.querySelectorAll('.home-button');
+    applyRandomColors.forEach(element => {
+        const randomColor = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+        element.style.color = randomColor;
+    });
+}
+
 let lastScrollPosition = 0;
 const backArrow = document.querySelector('.back-arrow');
 const homeButton = document.querySelector('.home-button');
@@ -43,4 +54,6 @@ window.addEventListener('scroll', () => {
     lastScrollPosition = currentScrollPosition;
 });
 
-
+window.onload = function () {
+    applyRandomColors();
+};

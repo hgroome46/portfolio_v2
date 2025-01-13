@@ -23,7 +23,6 @@ const customPositions = {
 function applyRandomColors() {
     const colorPalette = ["#FFB3C7", "#B3E7FF", "#B3FFF2", "#FFFFB3", "#FFDEB3", "#DEB3FF"];
 
-    // Apply random colors to elements with the random-color class
     const homeButtons = document.querySelectorAll('.home-button');
     homeButtons.forEach(element => {
         const randomColor = colorPalette[Math.floor(Math.random() * colorPalette.length)];
@@ -35,7 +34,6 @@ function applyRandomColors() {
 function applyRandomColors2() {
     const colorPalette = ["#FFB3C7", "#B3E7FF", "#B3FFF2", "#FFFFB3", "#FFDEB3", "#DEB3FF"];
 
-    // Apply random colors to elements with the custom-link class
     const customLinks = document.querySelectorAll('.custom-link');
     customLinks.forEach(link => {
         const randomColor = colorPalette[Math.floor(Math.random() * colorPalette.length)];
@@ -70,8 +68,12 @@ fetch('portfolio-data.json')
                     artPieceVideo.style.display = "none";
                 }
 
-                document.getElementById('art-piece-title').innerText = image.title || "";
+                const artPieceTitle = image.title || "Portfolio Entry";
+                document.getElementById('art-piece-title').innerText = artPieceTitle;
                 document.getElementById('art-piece-date').innerText = image.date || "";
+
+                // Set page title to match art-piece-title
+                document.title = artPieceTitle;
 
                 // Render description with potential hyperlinks
                 const descriptionElement = document.getElementById('art-piece-description');
@@ -115,7 +117,6 @@ fetch('portfolio-data.json')
                         }
                         fullSizeAfterContainer.appendChild(fullSizeAfterItem);
                     } else if (otherMedia.class === "real-size-container") {
-                        // Handle real-size media
                         const realSizeItem = document.createElement('div');
                         realSizeItem.classList.add('real-size-item');
 
@@ -130,7 +131,6 @@ fetch('portfolio-data.json')
                         realSizeItem.appendChild(imgElement);
                         otherImagesGallery.appendChild(realSizeItem);
                     } else {
-                        // Regular gallery item
                         const galleryItem = document.createElement('div');
                         galleryItem.classList.add('gallery-item');
                         if (otherMedia.video_path) {
@@ -177,7 +177,6 @@ const homeButton = document.querySelector('.home-button');
 window.addEventListener('scroll', () => {
     const currentScrollPosition = window.scrollY;
 
-    // Hide buttons on scroll down, show on scroll up
     if (currentScrollPosition > lastScrollPosition) {
         backArrow.style.opacity = '0';
         homeButton.style.opacity = '0';

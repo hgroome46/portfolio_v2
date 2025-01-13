@@ -15,23 +15,7 @@ function applyRandomColors() {
         element.style.color = randomColor;
     });
 
-    // const aboutPageLinks = document.querySelectorAll('.about-page-link');
-    // aboutPageLinks.forEach(element => {
-    //     const randomColor = colorPalette[Math.floor(Math.random() * colorPalette.length)];
-    //     element.style.color = randomColor;
-    // });
-    //
-    // const aboutPageLinks2 = document.querySelectorAll('.about-page-link2');
-    // aboutPageLinks2.forEach(element => {
-    //     const randomColor = colorPalette[Math.floor(Math.random() * colorPalette.length)];
-    //     element.style.color = randomColor;
-    // });
-    //
-    // const aboutPageLinks3 = document.querySelectorAll('.about-page-link3');
-    // aboutPageLinks3.forEach(element => {
-    //     const randomColor = colorPalette[Math.floor(Math.random() * colorPalette.length)];
-    //     element.style.color = randomColor;
-    // });
+
 }
 let lastScrollPosition = 0;
 const backArrow = document.querySelector('.back-arrow');
@@ -55,4 +39,18 @@ window.addEventListener('scroll', () => {
     lastScrollPosition = currentScrollPosition;
 });
 // Run the function on page load
-window.onload = applyRandomColors;
+function applyRandomColors2() {
+    const colorPalette = ["#FFB3C7", "#B3E7FF", "#B3FFF2", "#FFFFB3", "#FFDEB3", "#DEB3FF"];
+
+    // Apply random colors to elements with the random-color class
+    const applyRandomColors = document.querySelectorAll('.home-button');
+    applyRandomColors.forEach(element => {
+        const randomColor = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+        element.style.color = randomColor;
+    });
+}
+
+window.onload = function () {
+    applyRandomColors();
+    applyRandomColors2();
+};
